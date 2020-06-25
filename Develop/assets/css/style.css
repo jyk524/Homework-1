@@ -7,7 +7,7 @@
 body {
   background-color: #d9dcd6;
 }
-
+/* added display flex from inline block to make dynamic motion for website */
 header {
   display: flex;
   padding: 20px;
@@ -16,7 +16,7 @@ header {
   background-color: #2a607c;
   color: #ffffff;
 }
-
+/* added display flex to make dynamic motion for website */
 header h1 {
   display: flex;
   font-size: 48px;
@@ -35,11 +35,12 @@ header nav {
   justify-content: right;
 }
 
+/* added display flex to make dynamic motion for website */
 header nav ul {
   display: flex;
   list-style-type: none;
 }
-
+/* added display inline block to keep the nav elements in their own space*/
 header nav ul li {
   display: inline-block;
   margin-left: 25px;
